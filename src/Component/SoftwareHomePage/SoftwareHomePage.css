@@ -1,0 +1,25 @@
+.main{
+
+        background-image: url("https://gomilestone.com/wp-content/uploads/2023/12/software-home.jpg");
+        background-color: #cccccc;
+        height:  100vh;
+
+}
+.main-title {
+ padding-top: 140px ;
+ color: white;
+
+}
+.main-title  h1{
+    padding-top: 100px ;
+    color: white;
+    font-size: 70px;
+   
+   }
+   .main-title  p{
+    padding-top: 50px ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   
+   }

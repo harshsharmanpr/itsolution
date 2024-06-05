@@ -12,9 +12,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a to="/" className="navbar-logo">
-          qclick Services
-        </a>
+        <div>
+          <a to="/" className="navbar-logo">
+            qclick Services
+          </a>
+        </div>
         <div className="menu-icon" onClick={handleToggle}>
           <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
         </div>

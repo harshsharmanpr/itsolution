@@ -56,22 +56,25 @@ body, html {
 .navbar {
     background-color: #333;
     color: white;
-    padding: 15px 0;
-    position: relative;
+    padding: 20px 20px;
+    position: fixed;
+    /* position: relative; */
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 190px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 .navbar-logo {
     font-size: 1.5em;
     text-decoration: none;
+    gap: 30px;
     color: white;
 }
 
