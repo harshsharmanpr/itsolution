@@ -98,7 +98,7 @@ export default function Footer() {
                   {/* Links */}
                   <h6 className="text-uppercase fw-bold mb-4">Quick Link</h6>
                   <p>
-                    <a href="#!" className="text-reset">
+                    <a href="#!" className="text-reset  ">
                       About Us
                     </a>
                   </p>

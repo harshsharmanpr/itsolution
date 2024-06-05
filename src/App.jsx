@@ -1,20 +1,16 @@
-import { useState } from "react";
-
 import "./App.css";
-import Navbar from "./Component/Navbar/Navbar";
-import Footer from "./Component/footer/Footer";
-// import { CallBook } from "./assets/assets";
-import BokkCall from "./Component/bookCall/BokkCall";
+
+import { Routes, Route } from "react-router-dom";
+import Home from "./Component/Home/Home";
+import ServicePage from "./Pages/ServicesPage/ServicePage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <Navbar />
-
-      <BokkCall />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<ServicePage />} />
+      </Routes>
     </>
   );
 }
