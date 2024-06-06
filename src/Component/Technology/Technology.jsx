@@ -1,6 +1,12 @@
 import React from "react";
 import "./Technology.css";
-import { technologys } from "../../assets/assets";
+import {
+  database,
+  backend,
+  technologys,
+  eccommerce,
+  Appdev,
+} from "../../assets/assets";
 
 export default function Technology() {
   return (
@@ -13,20 +19,15 @@ export default function Technology() {
           <p>ReactJS</p>
           <p>NextJs</p>
           <p>HTML5</p>  */}
-          <div>
+          <div className="grid-container">
             {technologys.map((item, index) => {
               return (
-                <div className="map" key={index}>
-                  <div className="map1">
-                    <div>
-                      {" "}
-                      <img src={item.img} alt="" />
-                    </div>
-                    <div>
-                      {" "}
-                      <p>{item.tittle}</p>
-                    </div>
-                  </div>{" "}
+                <div className="grid-item" key={index}>
+                  <div>
+                    {" "}
+                    <img src={item.img} alt={item.tittle} />
+                    <p>{item.tittle}</p>
+                  </div>
                 </div>
               );
             })}
@@ -34,40 +35,87 @@ export default function Technology() {
         </div>
         <div className="sub-div">
           <h3>Backend</h3>
-          <p>Node.js</p>
+          {/* <p>Node.js</p>
           <p>Laravel</p>
           <p>PHP</p>
-          <p>.NET</p>
+          <p>.NET</p> */}
+          <div className="grid-container">
+            {backend.map((item, index) => {
+              return (
+                <div className="grid-item" key={index}>
+                  <div>
+                    {" "}
+                    <img src={item.img} alt={item.tittle} />
+                    <p>{item.tittle}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
         <div className="sub-div">
           <h3>Database & Servers</h3>
-          <p>MongoDB</p>
+          {/* <p>MongoDB</p>
           <p>Postgresql</p>
           <p>MySQL</p>
           <p>SQL Server</p>
-          <p>Linux Server</p>
+          <p>Linux Server</p> */}
+          <div className="grid-container">
+            {database.map((item, index) => {
+              return (
+                <div className="grid-item" key={index}>
+                  <div>
+                    {" "}
+                    <img src={item.img} alt={item.tittle} />
+                    <p>{item.tittle}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div className="main-div">
-        <div className="sub-div">
+        {/* <div className="sub-div">
           <h3>UI/UX Design</h3>
-          <p>Adobe XD</p>
-          <p>Figma</p>
-        </div>
+          {/* <p>Adobe XD</p>
+          <p>Figma</p> */}
+        {/* </div>
         <div className="sub-div">
           <h3>Project Management</h3>
           <p>Jira Software</p>
           <p>Zoho</p>
-        </div>
+        </div>  */}
         <div className="sub-div">
           <h3>Mobile App</h3>
-          <p>React Native</p>
-          <p>Kotlin</p>
+
+          {/* <p>Kotlin</p> */}
+
+          {Appdev.map((item, index) => {
+            return (
+              <div className="grid-item" key={index}>
+                <div>
+                  {" "}
+                  <img src={item.img} alt={item.tittle} />
+                  <p>{item.tittle}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
         <div className="sub-div">
           <h3>Ecommerce and CMS</h3>
-          <p>WordPress</p>
-          <p>Shopify</p>
+          {eccommerce.map((item, index) => {
+            return (
+              <div className="grid-item" key={index}>
+                <div>
+                  {" "}
+                  <img src={item.img} alt={item.tittle} />
+                  <p>{item.tittle}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
