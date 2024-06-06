@@ -18,7 +18,10 @@ export default function Technology() {
               return (
                 <div className="map" key={index}>
                   <div className="map1">
-                    <img src={item.img} alt="" />
+                    <div>
+                      {" "}
+                      <img src={item.img} alt="" />
+                    </div>
                     <div>
                       {" "}
                       <p>{item.tittle}</p>
