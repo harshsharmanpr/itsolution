@@ -1,6 +1,8 @@
 import image1 from "../assets/service1.jpg";
+import Nextjs from "../assets/Nextjs.png";
 export const assets = {
   image1,
+  Nextjs,
 };
 
 export const CallBook = [
@@ -12,5 +14,23 @@ export const CallBook = [
     email: "customercare@qclick.in",
     phoneTilte: "Contact With Phone",
     phone: "+91 9811175188",
+  },
+];
+export const technologys = [
+  {
+    tittle: "NextJs ",
+    img: Nextjs,
+  },
+  {
+    tittle: "NextJs ",
+    img: Nextjs,
+  },
+  {
+    tittle: "NextJs ",
+    img: Nextjs,
+  },
+  {
+    tittle: "NextJs ",
+    img: Nextjs,
   },
 ];

@@ -1,50 +1,38 @@
+// src/Navbar.js
 import React, { useState } from "react";
-// import { a } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleToggle = () => {
+  const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <nav className="navbar">
-      <div className="navbar-container">
-        <div>
-          <a to="/" className="navbar-logo">
-            qclick Services
-          </a>
-        </div>
-        <div className="menu-icon" onClick={handleToggle}>
-          <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
-        </div>
-        <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
+      <div className="brand-title">qclick Services</div>
+      <a href="#" className="toggle-button" onClick={toggleMenu}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </a>
+      <div className={`navbar-links ${isOpen ? "active" : ""}`}>
+        <ul>
           <li>
-            <a to="/" onClick={() => setIsOpen(false)}>
-              Home
-            </a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a to="/about" onClick={() => setIsOpen(false)}>
-              About Us
-            </a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a to="/services" onClick={() => setIsOpen(false)}>
-              Services
-            </a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <a to="/portfolio" onClick={() => setIsOpen(false)}>
-              Portfolio
-            </a>
+            <a href="#case-study">Case Study</a>
           </li>
           <li>
-            <a to="/contact" onClick={() => setIsOpen(false)}>
-              Contact
-            </a>
+            <a href="#about">About</a>
           </li>
         </ul>
       </div>
