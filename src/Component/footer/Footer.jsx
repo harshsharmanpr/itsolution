@@ -2,14 +2,14 @@ import React from "react";
 
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faFacebookF,
-//   faTwitter,
-//   faGoogle,
-//   faInstagram,
-//   faLinkedin,
-//   faGithub,
-// } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookF,
+  faTwitter,
+  faGoogle,
+  faInstagram,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faHome,
   faEnvelope,
@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer text-center text-muted">
-        {/* <section className="social-media p-4 border-bottom">
+        <section className="social-media p-4 border-bottom">
           <div className="social-text">
             <span>qClick Services</span>
           </div>
@@ -44,8 +44,8 @@ const Footer = () => {
             <a href="" className="me-4 text-reset">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-          </div> */}
-        {/* </section> */}
+          </div>
+        </section>
 
         <section className="links-section mt-9">
           <div className="container">

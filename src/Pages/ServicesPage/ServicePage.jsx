@@ -1,9 +1,11 @@
 import React from "react";
 import Footer from "../../Component/footer/Footer";
-import Navbar from "../../Component/Navbar/Navbar";
+
 import ServiceCards from "../../Component/Navbar/ServiceCards/SeviceCards";
 import "./ServicePage.css";
 import Navbar from "../../Component/Navbar/Navbar";
+import Technology from "../../Component/Technology/Technology";
+import BookCall from "../../Component/bookCall/BokkCall";
 
 const ServicePage = () => {
   return (
@@ -79,6 +81,8 @@ const ServicePage = () => {
           </div>
         </div>
       </div>
+      <Technology />
+      <BookCall />
       <Footer />
     </>
   );
