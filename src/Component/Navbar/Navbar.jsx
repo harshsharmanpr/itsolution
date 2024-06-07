@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar fixed-top">
       <div className="brand-title">qclick Services</div>
       <Link to="#" className="toggle-button" onClick={toggleMenu}>
         <span className="bar"></span>
@@ -32,6 +32,7 @@ const Navbar = () => {
           <li>
             <Link to="/casestudy">Case Study</Link>
           </li>
+
           <li>
             <Link to="/about">Portfolio</Link>
           </li>

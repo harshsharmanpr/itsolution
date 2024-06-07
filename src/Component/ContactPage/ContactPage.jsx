@@ -3,10 +3,12 @@ import "./ContactPage.css";
 import { FaPhone } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import { IoLocationSharp } from "react-icons/io5";
+import Navbar from "../Navbar/Navbar";
 
 function ContactPage() {
   return (
     <>
+    <Navbar></Navbar>
       <div>
         <div className="Contact_heading">
           <h5 className="Contact"> Contact</h5>

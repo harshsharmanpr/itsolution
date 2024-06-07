@@ -18,6 +18,13 @@ import linuxserver from "../assets/Linux-Server.jpg.jpg";
 import Wordpress from "../assets/WordPress.png";
 import Shopify from "../assets/shopify.png";
 import Kotlin from "../assets/Kotlin.png.png";
+import zobox from "../assets/10.jpg";
+import hawkeye from "../assets/11.jpg";
+import rms from "../assets/12.jpg";
+import texcare from "../assets/15.jpg";
+import elevated from "../assets/16.jpg";
+import oldbook from "../assets/17.jpg";
+
 import NewProject from "../assets/New-Project.png";
 import crunch from "../assets/crunch.png.png";
 export const assets = {
@@ -36,13 +43,20 @@ export const assets = {
   postgresql,
   windowhosting,
   mssql,
+  Wordpress,
+  Shopify,
   NewProject,
-
   Wordpress,
   Shopify,
   crunch,
-
   Kotlin,
+  zobox,
+  hawkeye,
+  rms,
+  texcare,
+  elevated,
+  oldbook
+
 };
 
 export const imagess = [
