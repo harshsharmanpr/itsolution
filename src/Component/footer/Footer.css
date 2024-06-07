@@ -7,10 +7,11 @@ body {
   .container1 {
     display: flex;
     justify-content: space-around;
-    background-color: #c2cad1;
+    background-color: #c2ccd5;
     /* background-color: blue; */
 
-    padding: 20px 0;
+    /* padding: 20px 0;
+    text-decoration: none; */
   }
 
  
@@ -36,6 +37,21 @@ body {
   .social-text {
     margin-bottom: 10px;
   }
+  /* .fw-bold h1 , p {
+    text-align: justify !important;
+
+    text-decoration: none;
+  } */
+ /* .text-reset{
+
+    text-decoration: none;
+    text-align:right;
+  }
+  .para a{
+    text-align:left;
+  } */
+
+  
   
   .social-icons a {
     margin: 0 10px;

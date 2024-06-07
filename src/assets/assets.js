@@ -25,6 +25,8 @@ import texcare from "../assets/15.jpg";
 import elevated from "../assets/16.jpg";
 import oldbook from "../assets/17.jpg";
 
+import NewProject from "../assets/New-Project.png";
+import crunch from "../assets/crunch.png.png";
 export const assets = {
   image1,
   Nextjs,
@@ -43,6 +45,10 @@ export const assets = {
   mssql,
   Wordpress,
   Shopify,
+  NewProject,
+  Wordpress,
+  Shopify,
+  crunch,
   Kotlin,
   zobox,
   hawkeye,
@@ -53,6 +59,16 @@ export const assets = {
 
 };
 
+export const imagess = [
+  {
+    img: NewProject,
+  },
+];
+export const imagess1 = [
+  {
+    img: crunch,
+  },
+];
 export const CallBook = [
   {
     tittle: "Book A Call With Us",
