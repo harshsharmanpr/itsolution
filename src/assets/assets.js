@@ -18,6 +18,8 @@ import linuxserver from "../assets/Linux-Server.jpg.jpg";
 import Wordpress from "../assets/WordPress.png";
 import Shopify from "../assets/shopify.png";
 import Kotlin from "../assets/Kotlin.png.png";
+import NewProject from "../assets/New-Project.png";
+import crunch from "../assets/crunch.png.png";
 export const assets = {
   image1,
   Nextjs,
@@ -34,13 +36,25 @@ export const assets = {
   postgresql,
   windowhosting,
   mssql,
+  NewProject,
 
   Wordpress,
   Shopify,
+  crunch,
 
   Kotlin,
 };
 
+export const imagess = [
+  {
+    img: NewProject,
+  },
+];
+export const imagess1 = [
+  {
+    img: crunch,
+  },
+];
 export const CallBook = [
   {
     tittle: "Book A Call With Us",

@@ -1,0 +1,143 @@
+.Contact_heading {
+    background-color: #4054B2;
+    padding: 20px 0;
+}
+
+.Contact {
+    font-size: 30px;
+    text-align: center; 
+    font-weight: 700;
+    color: white;
+}
+
+.contact_para {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.form_flexContainer {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    width: 95%;
+    margin: 20px auto;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.input_section {
+    width: 50%;
+    background-color: rgb(239, 237, 237);
+    padding: 20px;
+}
+
+.input_section h6 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name_email, .col_sec {
+    width: calc(100% - 40px);
+    margin: 0 20px 20px 20px;
+}
+
+.message {
+    width: calc(100% - 40px);
+    margin: 20px;
+    height: 100px;
+}
+
+.btn_form {
+    text-align: center;
+}
+
+.btn_message {
+    background-color: #fbbd00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_info {
+    width: 50%;
+    padding: 0px;
+    line-height: 1.5;
+}
+
+.contact_information {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.contact_icon, .email_icon, .address_icon {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.mobile, .email_h6, .Address {
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    color: blue;
+}
+
+.mobile:hover, .email_h6:hover {
+    color: black;
+}
+
+.mobile_no, .gmail, .address_para, .address_paraone {
+    text-align: center;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.embed-map-canvas {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.embed-map-canvas iframe {
+    width: 100%;
+    max-width: 1252px;
+    height: 500px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .form_flexContainer {
+        flex-direction: column;
+        width: 50%;
+        gap: 20px;
+    }
+
+    .input_section, .contact_info {
+        width: 100%;
+    }
+
+    .message {
+        width: calc(100% - 40px);
+    }
+
+    .btn_message {
+        margin: 0;
+    }
+
+    .embed-map-canvas iframe {
+        width: 100%;
+    }
+}
+
