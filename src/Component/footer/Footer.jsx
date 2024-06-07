@@ -17,7 +17,7 @@ import {
   faPrint,
 } from "@fortawesome/free-solid-svg-icons";
 
-const App = () => {
+const Footer = () => {
   return (
     <div>
       <footer className="footer text-center text-muted">
@@ -150,4 +150,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Footer;
