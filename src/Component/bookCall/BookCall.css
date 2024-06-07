@@ -8,6 +8,7 @@
   
   .call-cards-container {
     flex: 1;
+    
     margin-right: 40px;
     margin-top: 40px;
   }
@@ -52,6 +53,7 @@
   form {
     background-color: #f0f0f0;
     padding: 20px;
+    
     border-radius: 8px;
   }
   
@@ -98,7 +100,21 @@ margin-top: 20px;
     .main-container {
       flex-direction: column;
     }
-    
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap:130px;
+      background-color: #f6f6f6;
+      /* padding: 40px; */
+      
+    }
+    form {
+      background-color: #f0f0f0;
+      padding: 20px;
+      width: 430px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
   
     .form-container {
       margin-left: 0;
@@ -110,6 +126,6 @@ margin-top: 20px;
     }
   
     .card5 {
-      width: calc(50% - 20px);
+      width: calc(80% - 20px);
     }
   }

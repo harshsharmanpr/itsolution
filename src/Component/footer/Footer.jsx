@@ -20,24 +20,6 @@ import {
 const App = () => {
   return (
     <div>
-      <div className="container1">
-        <div className="stat">
-          500+
-          <br />
-          Years of Experience
-        </div>
-        <div className="stat">
-          10+
-          <br />
-          Satisfied Customers
-        </div>
-        <div className="stat">
-          400+
-          <br />
-          Client Retention
-        </div>
-      </div>
-
       <footer className="footer text-center text-muted">
         {/* <section className="social-media p-4 border-bottom">
           <div className="social-text">
