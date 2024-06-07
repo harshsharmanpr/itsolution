@@ -51,44 +51,47 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h6 className="fw-bold mb-4">Technology</h6>
-                <p>
-                  <a href="#!" className="text-reset">
+                <h6 className="left-hadding fw-bold mb-4 text-decoration-none">
+                  Technology
+                </h6>
+
+                <p className="para">
+                  <a href="#" className="text-reset">
                     Node js
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     React js
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Flutter
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Shopify
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Wordpress
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Php
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     .NET
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Laravel
                   </a>
                 </p>
@@ -96,22 +99,22 @@ const Footer = () => {
               <div className="col">
                 <h6 className="fw-bold mb-4">QUESK</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     About Us
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Career
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Privacy Policy
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Help
                   </a>
                 </p>
