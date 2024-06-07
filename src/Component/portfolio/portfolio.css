@@ -1,0 +1,49 @@
+/* src/ServiceCards.css */
+
+.service-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .port-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .port-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .port-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .port-card h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .port-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .port-card{
+      width: 100%;
+    }
+  }
+  

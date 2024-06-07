@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceCards from '../Navbar/ServiceCards/SeviceCards';
+import PortfolioCard from './PortfolioCard';
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = () => {
 		</nav>
 		<div className="tab-content p-3 border bg-light" id="nav-tabContent">
 			<div className="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-      <ServiceCards/>
+      <PortfolioCard/>
 			</div>
 			<div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <ServiceCards/>

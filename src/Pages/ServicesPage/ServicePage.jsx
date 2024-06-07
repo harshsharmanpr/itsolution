@@ -17,11 +17,11 @@ const ServicePage = () => {
         Future.
       </p>
       <ServiceCards></ServiceCards>
-      <h1>Our Process for Custom Software Development</h1>
+      {/* <h1>Our Process for Custom Software Development</h1>
       <p>
         At Gomilestone, each Coperate Website is custom designed and developmed
         to meet the goals and needs of your bussiness.
-      </p>
+      </p> */}
     </div>
     <Portfolio/>
 <Footer/>
