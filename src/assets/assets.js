@@ -27,6 +27,16 @@ import oldbook from "../assets/17.jpg";
 
 import NewProject from "../assets/New-Project.png";
 import crunch from "../assets/crunch.png.png";
+import Ui_App from "../assets/Ui_App.jpeg"
+import Android_App from "../assets/Android_App.jpeg"
+import Hybrid_App from "../assets/Hybrid_App.jpeg"
+import Ios_App from "../assets/Ios_App.jpeg"
+// import Planning from "./Planning.jpeg"
+import process_implementation from "../assets/process_implementation.jpeg"
+import programming_background from "../assets/programming_background.jpeg"
+import standard_quality from "../assets/standard_quality.jpeg"
+import logo from "../assets/logo.png"
+
 export const assets = {
   image1,
   Nextjs,
@@ -55,7 +65,17 @@ export const assets = {
   rms,
   texcare,
   elevated,
-  oldbook
+  oldbook,
+  Android_App,
+  Hybrid_App,
+  Ios_App,
+  Ui_App,
+  // Planning,
+  process_implementation,
+  programming_background,
+  standard_quality,
+  logo
+
 
 };
 

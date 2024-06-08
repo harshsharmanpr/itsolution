@@ -4,6 +4,8 @@ import ServiceCards from "../../Component/Navbar/ServiceCards/SeviceCards";
 import "./ServicePage.css";
 import Navbar from "../../Component/Navbar/Navbar";
 import Portfolio from "../../Component/portfolio/Portfolio";
+import Appdevelopment from "../../Component/AppDevlopment/Appdevelopment";
+import CloudDevelopment from "../../Component/CloudDevelopment/CloudDevelopment";
 
 const ServicePage = () => {
   return (
@@ -24,6 +26,8 @@ const ServicePage = () => {
       </div>
 
     <Portfolio/>
+    <Appdevelopment/>
+    <CloudDevelopment/>
       <Footer />
     </>
   );

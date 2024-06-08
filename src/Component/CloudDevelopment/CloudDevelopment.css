@@ -1,0 +1,69 @@
+
+.clouddevelopment_section_heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 650;
+}
+.clouddevelopment_section_para{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.row_clouddevelopment_card{
+    display: flex;
+}
+.col_clouddevelopment_card{
+    width: 20%;
+    margin-left: 50px;
+    background-color: #ffff;
+    border-radius: 20px;
+    border-bottom:3px solid grey;
+}
+
+.col_clouddevelopment_card:hover{
+    border-bottom:3px solid #004955;
+}
+.col_clouddevelopment_card_img{
+    width: 250px;
+    height: 250px;
+    border-radius:10px 10px 0px 0px;
+}
+.col_clouddevelopment_card_para{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Cloud_DevOps_section_heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 650;
+    margin-top: 70px;
+}
+
+
+@media (max-width: 768px) {
+    .clouddevelopment_section_heading{
+        text-align: center;
+    }
+    .clouddevelopment_section_para{
+        text-align: center;
+    }
+    .row_clouddevelopment_card{
+        display: block;
+        direction: column;
+
+    }
+    .col_clouddevelopment_card{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .col_clouddevelopment_card_img{
+        width: 400px;
+    }
+    .col_clouddevelopment_card_para{
+        margin-left: 80px;
+    }
+    .Cloud_DevOps_section_heading{
+        text-align: center;
+    }
+}
