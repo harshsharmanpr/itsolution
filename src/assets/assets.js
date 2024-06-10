@@ -36,6 +36,7 @@ import process_implementation from "../assets/process_implementation.jpeg"
 import programming_background from "../assets/programming_background.jpeg"
 import standard_quality from "../assets/standard_quality.jpeg"
 import logo from "../assets/logo.png"
+import lrp from "../assets/lrp.png"
 
 export const assets = {
   image1,
@@ -66,6 +67,7 @@ export const assets = {
   texcare,
   elevated,
   oldbook,
+  lrp,
   Android_App,
   Hybrid_App,
   Ios_App,

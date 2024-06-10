@@ -48,8 +48,8 @@ const Footer = () => (
       <div className=" text-color row mt-6">
         {/* <hr className="clearfix w-100 d-md-none pb-0"/> */}
 
-        <div className="col-md-5 mb-md-0 mb-1">
-          <h5 className="text-uppercase mr-6">Technology</h5>
+        <div className=" h5-hedding col-md-4 mb-md-0 mb-4">
+          <h5 className="mr-6">Technology</h5>
           <ul className="">
             <li>
               <a href="#!">Node js</a>
@@ -77,8 +77,8 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="col-md-2 mb-md-0 mb-3">
-          <h5 className="text-uppercase ">Quesk</h5>
+        <div className="h5hedding col-md-4 mb-5 md-5">
+          <h5 className=" ">Quesk</h5>
           <ul className="">
             <li>
               <a href="#">About Us</a>
@@ -94,8 +94,8 @@ const Footer = () => (
             </li>
           </ul>
         </div>
-        <div className="col-md-2 mb-md-0 mb-3">
-          <h5 className="text-uppercase ">Contact</h5>
+        <div className=" h5hedding1 col-md-2 mb-md-0 mb-3 ">
+          <h5 className=" ">Contact</h5>
           <ul className="">
             <li>
               <FontAwesomeIcon icon={faHome} className="me-3" /> B-4 Ground

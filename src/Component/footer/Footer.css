@@ -62,8 +62,20 @@ position: relative;
  
   line-height: 1.25;
 }
-.footer-margin h5{
-  margin-right: 15%;
+ .h5-hedding h5{
+  margin-right: 20% !important;
+  font-size:  20px;
+
+}
+.h5hedding h5{
+  margin-right: 30% ;
+  font-size:  20px;
+
+}
+.h5hedding1 h5{
+  margin-right: 11% ;
+  font-size:  20px;
+
 }
 .margin-css{
   margin-right: 20% !important;
