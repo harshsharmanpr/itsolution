@@ -10,7 +10,7 @@ const PortfolioCard = () => {
     { id: 3, title: "Dotenet php", image: assets.rms },
     { id: 4, title: "Laravel", image: assets.texcare },
     { id: 5, title: "Laravel", image: assets.elevated },
-    { id: 6, title: "Laravel", image: assets.oldbook },
+    { id: 6, title: "Laravel", image: assets.lrp },
   ];
 
   return (
