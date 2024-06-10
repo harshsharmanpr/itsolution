@@ -4,6 +4,8 @@ import ServiceCards from "../../Component/Navbar/ServiceCards/SeviceCards";
 import "./ServicePage.css";
 import Navbar from "../../Component/Navbar/Navbar";
 import Portfolio from "../../Component/portfolio/Portfolio";
+import Appdevelopment from "../../Component/AppDevlopment/Appdevelopment";
+import CloudDevelopment from "../../Component/CloudDevelopment/CloudDevelopment";
 
 const ServicePage = () => {
   return (
@@ -23,6 +25,9 @@ const ServicePage = () => {
         </p> */}
       </div>
 
+    <Portfolio/>
+    <Appdevelopment/>
+    <CloudDevelopment/>
       <div className="d-flex justify-content-center align-items-center bg-light">
         <div className="card p-3 shadow" style={{ maxWidth: "100%" }}>
           <h2 className="text-center p-3">Portfolio</h2>

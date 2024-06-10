@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { assets } from "../../assets/assets";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar fixed-top">
-      <div className="brand-title">qclick Services</div>
+      <div className="brand-title">
+        <img src={assets.logo} style={{width:"100px", height:"auto"}}></img>
+      </div>
       <Link to="#" className="toggle-button" onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
@@ -34,7 +37,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="/about">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
         </ul>
       </div>
