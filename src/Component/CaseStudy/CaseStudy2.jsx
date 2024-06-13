@@ -1,13 +1,21 @@
-import React from "react";
-import {  imagess1 } from "../../assets/assets";
-import "./CaseStudyPage1.css"; // Import the CSS file
+import React from 'react'
+import { imagess2 } from '../../assets/assets';
 
-export default function CaseStudyPage1() {
+export default function CaseStudy2() {
   return (
     <div className="container">
+        <div className="image">
+        {imagess2.map((item, index) => {
+          return (
+            <div key={index} className="image-item">
+              <img  className ="h=4"src={item.img} alt="Not found" />
+            </div>
+          );
+        })}
+      </div>
       
       <div className="content">
-        <h1>MealSurplus: Meal Surplus Portal</h1>
+        <h1>Zobox: Zobox Dashboard</h1>
         <h2>Project Challenge</h2>
         <p>
           Struggling with Tedious Loan Applications and Lack of a Centralized
@@ -29,16 +37,8 @@ export default function CaseStudyPage1() {
           application journey
         </p>
       </div>
-       <div className="image">
-        {imagess1.map((item, index) => {
-          return (
-            <div key={index} className="image-item">
-              <img src={item.img} alt="Not found" />
-            </div>
-          );
-        })}
-      </div>
+       
      
     </div>
-  );
+  )
 }
