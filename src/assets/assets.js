@@ -91,6 +91,16 @@ export const imagess1 = [
     img: crunch,
   },
 ];
+export const imagess2 = [
+  {
+    img: zobox,
+  },
+];
+export const imagess3 = [
+  {
+    img: hawkeye,
+  },
+];
 export const CallBook = [
   {
     tittle: "Book A Call With Us",

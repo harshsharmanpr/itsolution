@@ -8,7 +8,6 @@ export default function ContactNavbar() {
   return (
     <div>
       <Navbar />
-
       <ContactPage />
       <BookCall />
       <Footer />
